@@ -150,5 +150,18 @@ body, html {
     border-radius: 10px;
 }
 
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px 50px 30px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 10px;
+}
+
+.socialmediaicon{
+    gap: 20px;
+    display: flex;
+    
+}
 
 
