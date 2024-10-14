@@ -249,3 +249,42 @@ body, html {
 }
 
 
+
+.inspiration {
+    width: 1440px;
+    text-align: center;
+    margin-bottom: 50px;
+
+    font-family:"Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.inspiration h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.inspiration p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.video-container iframe {
+    width: 70%;
+    max-width: 1000px;
+    height: 563px;
+}
+
