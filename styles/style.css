@@ -86,6 +86,7 @@ body, html {
 }
 
 
+
 /* footer section */
 .footer {  
     background-image: url('../images/handshake.jpg');
@@ -162,3 +163,89 @@ body, html {
     display: flex;
     
 }
+
+
+
+
+/* Why choose web development section */
+.why-choose-web-dev {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 50px 0;
+}
+
+.why-choose-web-dev p {
+    color: #0f0f0f;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.why-choose-web-dev h1 {
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    font-size: 40px;
+    padding-top: 4px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.threeCard {
+    width: 1440px;
+    margin: 0 auto; 
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+.secondCard {
+    flex-direction: row;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.card h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cardImage img {
+    width: 400px;
+    height: auto;
+}
+
+.learnMoreBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
