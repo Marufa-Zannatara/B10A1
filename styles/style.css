@@ -249,15 +249,14 @@ body, html {
 }
 
 
+/* My inspiration video section */
 
 .inspiration {
-    width: 1440px;
+    width: 1340px;
     text-align: center;
     margin-bottom: 50px;
-
     font-family:"Azeret Mono", monospace;
-    margin: 0;
-    padding: 0;
+    padding: 10px;
     
 
 }
@@ -265,11 +264,14 @@ body, html {
 .inspiration h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-weight: 900;
 }
 
 .inspiration p {
     font-size: 18px;
     margin-bottom: 40px;
+    font-family:"Azeret Mono", monospace;
+    font-weight: 600;
     
 }
 
