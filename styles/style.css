@@ -290,3 +290,63 @@ body, html {
     height: 563px;
 }
 
+
+/* my current target */
+
+  
+
+.myCurrentTarget {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:"Azeret Mono", monospace;
+    
+}
+
+
+
+
+.myCurrentTargetCard-container {
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.myCurrentTargetCard {
+    background-color: #f0f8ff; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.myCurrentTargetCard img {
+    width: 40%; 
+    height: 40%; 
+    border-radius: 8px;
+    margin-bottom: 7px; 
+}
+
+.myCurrentTargetCard p {
+    margin-bottom: 10px; 
+    font-size: 16px;
+    color: #333;
+}
+
+.myCurrentTargetCard a {
+    text-decoration: underline; 
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
+
